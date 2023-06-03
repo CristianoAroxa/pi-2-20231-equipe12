@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="crud_pi/src"/>
+	<classpathentry kind="lib" path="crud_pi/dist/crud_liberty.jar"/>
+	<classpathentry kind="lib" path="crud_pi/dist/lib/AbsoluteLayout.jar"/>
+	<classpathentry kind="lib" path="crud_pi/dist/lib/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="output" path="crud_pi/build/classes"/>
+</classpath>
