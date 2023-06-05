@@ -1,0 +1,45 @@
+create database BD_PI_Liberty;
+
+use BD_PI_Liberty;
+
+create table Admins(
+codAdm int(3) primary key,
+nomeAdm varchar(60),
+telAdm varchar(15),
+emailAdm varchar(60),
+senhaAdm varchar(60));
+
+insert into admins(
+codAdm,
+nomeAdm, 
+telAdm ,
+emailAdm, 
+senhaAdm 
+) values (
+1,"admin","13-00000-000","admin@admin.com","adm1234");
+
+create table Professores(
+rm int(5) primary key,
+nomeProf varchar(60),
+emailProf varchar(60),
+telProf varchar(15),
+titulacao varchar(20));
+
+create table Alunas(
+ra int(5),
+nome varchar(60),
+telefone varchar(15),
+email varchar(60),
+senha varchar(50));
+
+create table Cursos(
+codCurso int(4) primary key,
+nomeCurso varchar(60),
+preco double,
+cargaHorCurso varchar(30));
+
+create table modulos(
+codModulo int(5) primary key,
+nomeModulo varchar(60),
+cargaHorModulo varchar(60),
+descricaoModulo varchar(60));
