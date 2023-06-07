@@ -55,7 +55,7 @@ public class Aluna {
      public void alterarAluno(){
         String sql;
         sql = "Update alunas set nome='" + getNome() +"', telefone='"+ getTelefone()
-                +"',email='" + getEmail() + "',senha='"+getSenha()+"',ra="+ getRa();
+                +"',email='" + getEmail() + "',senha='"+getSenha()+"',where ra="+ getRa();
         con.executeSQL(sql);
         JOptionPane.showMessageDialog(null,"Registro alterado com sucesso!!");           
     }
